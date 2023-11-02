@@ -8,6 +8,7 @@ const props = defineProps<{
 const chart = ref();
 
 onMounted(() => {
+  // TODO: Why is this complaining about
   const myChart = echarts.init(chart.value);
 
   myChart.setOption(props.options);
