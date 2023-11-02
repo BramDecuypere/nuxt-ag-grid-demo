@@ -5,4 +5,5 @@ export default defineNuxtConfig({
     strict: true,
   },
   ssr: false,
+  modules: ["@nuxtjs/eslint-module"],
 });
